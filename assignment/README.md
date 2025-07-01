@@ -16,8 +16,15 @@ A simple card management web app built using **JavaScript**, **Tailwind CSS**, a
 ## 📸 Preview
 
 ![App Screenshot](./public/ProjectPreview-1.png) <!-- Replace with your actual screenshot file path -->
+![App Screenshot](./public/ProjectPreview-2.png) <!-- Replace with your actual screenshot file path -->
 
 ---
+
+## 🌐 Live Preview
+
+```bash
+https://recruiterflow-drab.vercel.app/
+```
 
 ## 🛠️ Tech Stack
 
@@ -34,12 +41,6 @@ A simple card management web app built using **JavaScript**, **Tailwind CSS**, a
 
 ```bash
 npm create vite@latest
-```
-
-- Install Dependencies
-
-```bash
-npm install
 ```
 
 - Setup Tailwind CSS
@@ -80,10 +81,10 @@ Add Tailwind to src/index.css
    - Project: CardManager
    - Resource: cards
    - Fields:
-   - id (auto-generated)
-   - createdAt (Faker.js)
-   - product (Faker.js)
-   - avatar (Faker.js)
+     - id (auto-generated)
+     - createdAt (Faker.js)
+     - product (Faker.js)
+     - avatar (Faker.js)
 3. Copy the generated base API URL
 
 ```bash
