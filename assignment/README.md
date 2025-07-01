@@ -15,7 +15,7 @@ A simple card management web app built using **JavaScript**, **Tailwind CSS**, a
 
 ## 📸 Preview
 
-![App Screenshot](./ProjectPreview-1.png) <!-- Replace with your actual screenshot file path -->
+![App Screenshot](./public/ProjectPreview-1.png) <!-- Replace with your actual screenshot file path -->
 
 ---
 
@@ -30,24 +30,29 @@ A simple card management web app built using **JavaScript**, **Tailwind CSS**, a
 
 ## Project Setup & Build Steps
 
-- 1. Create a Vite + React JavaScript Project
-- 2. Install Dependencies
+- Create a Vite + React JavaScript Project
 
 ```bash
-    npm install
+npm create vite@latest
 ```
 
-- 3. Setup Tailwind CSS
+- Install Dependencies
 
 ```bash
-   npm install -D tailwindcss postcss autoprefixer
-    npx tailwindcss init -p
+npm install
+```
+
+- Setup Tailwind CSS
+
+```bash
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
 ```
 
 Modify tailwind.config.js
 
 ```bash
-   /** @type {import('tailwindcss').Config} */
+/** @type {import('tailwindcss').Config} */
 export default {
   content: [
     "./index.html",
@@ -72,17 +77,17 @@ Add Tailwind to src/index.css
 
 1. Go to https://mockapi.io
 2. Create a new Project & Resource
-   Project: CardManager
-   Resource: cards
-   Fields:
-   id (auto-generated)
-   createdAt (Faker.js)
-   product (Faker.js)
-   avatar (Faker.js)
+   - Project: CardManager
+   - Resource: cards
+   - Fields:
+   - id (auto-generated)
+   - createdAt (Faker.js)
+   - product (Faker.js)
+   - avatar (Faker.js)
 3. Copy the generated base API URL
 
 ```bash
-    https://66855303b3f57b06dd4c4802.mockapi.io/products
+https://66855303b3f57b06dd4c4802.mockapi.io/products
 ```
 
 ### 🚀 Running the Project
